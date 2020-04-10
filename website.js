@@ -29,7 +29,11 @@ axios.get(URL)
             } = item;
             const stringHTML = `
 <tr>
-<td><img width = "20%" height="80px" src='${imgUrl}/${images}' alt='...' /></td>
+<td>
+<div class="text-center">
+<img height="80px" src='${imgUrl}/${images}' alt='...' />
+</div>
+</td>
 <td>${destinationName}</td>
 <td>${city}</td>
 <td>${province}</td>
